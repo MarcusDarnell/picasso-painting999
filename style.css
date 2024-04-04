@@ -1,0 +1,161 @@
+.box-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25vw 25vw 25vw;
+    column-gap: 1vw;
+    row-gap: 1vw;
+    margin-bottom: 0%;
+  }
+  
+  .box-grid>div {
+    background-color:#327d70;
+    
+  }
+  
+  .big-box {
+    grid-column-end: span 3;
+    grid-row-end: span 2;
+    position: relative;
+  }
+  
+  .extra-decorations {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+  
+  .circle {
+    border-radius: 10000px;
+    background-color: rgb(223, 121, 121);
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+  }
+  
+  .extra-decoration {
+    z-index: 1;
+  }
+  
+  .extra-decoration>.circle:nth-child(1) {
+    left: 20vw;
+    top:10vw;
+  }
+  
+  .extra-decoration>.circle:nth-child(2) {
+    left:8vw;
+    top: 15vw;
+    background-color: #e9cf4e;
+  }
+  
+  .extra-decorations>.circle:nth-child(3) {
+      left: 30vw;
+      top: 15vw;
+      width: 15vw;
+      height: 15vw;
+  }
+  
+  .extra-decorations>.circle:nth-child(4) {
+    left: 50vw;
+    top: 20vw;
+    width: 15vw; 
+    height: 15vw;
+    background-color: #e9cf4e;
+  }
+  /* >.circle:nth-child(5) {
+  
+  }
+  >.circle:nth-child(6) {
+  
+  }
+  >.circle:nth-child(7) {
+  
+  }
+  */
+  .tree {
+      position: absolute;
+      right: 0vw;
+      bottom: 0vw;
+      height: 61vw;
+      font-size: 50vw;
+    }
+    
+  .tree1 {
+    position: absolute;
+    bottom: 0vw;
+    right: -15vw;
+    height: 49vw;
+    font-size: 40vw;
+    }
+  
+  .people1 {
+    position: absolute;
+    bottom: 0vw;
+    left: 3vw;
+    font-size: 8vw
+  }
+  
+  .people2 {
+    position: absolute;
+    bottom: 0vw;
+    left: -3vw;
+    font-size: 8vw
+  }
+  
+  .people3 {
+      position: absolute;
+      bottom: 0vw;
+      left: 14vw;
+      font-size: 8vw
+  
+  }
+  
+  .people4 {
+    position: absolute;
+    bottom: 0vw;
+    left: 8vw;
+    font-size: 8vw;
+  }
+  
+  .people5 {
+    position: absolute;
+    bottom: 0vw;
+    left:  25vw;
+    font-size: 8vw;
+  }
+  
+  .people6 {
+    position: absolute;
+    bottom: 0vw;
+    left: 19vw;
+    font-size: 8vw;
+     
+  }
+  
+  .people7 {
+    position: absolute;
+    bottom: 0vw;
+    right: 51vw;
+    font-size: 8vw;
+  
+  }
+  
+  .people8 {
+    position: absolute;
+    bottom: 0vw;
+    right: 57vw;
+    font-size: 8vw;
+  }
+  
+  .people9 {
+    position: absolute;
+    bottom: 0vw;
+    right: 40vw;
+    font-size: 8vw
+  }
+  
+  .people10 {
+    position: absolute;
+    bottom: 0vw;
+    right: 46vw;
+    font-size: 8vw
+  }
